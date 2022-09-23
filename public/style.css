@@ -14,6 +14,10 @@
   --black-color: #1a1a1a
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -323,4 +327,72 @@ header{
   border: 1px solid #ccca1a;
   padding: 0.725rem 1.725rem;
   font-weight: 500;
+}
+
+/* modal alert age */
+
+.modal-age {
+  background-color: #191919;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-age.close-modal{
+  display: none;
+}
+
+.box-alert {
+  max-width: 440px;
+  padding: 3.225rem 1.25rem;
+  border-radius: 10px;
+  background-color: var(--yellow-color);
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.modal-logo, .title-modal{
+  text-align: center;
+}
+
+.modal-logo img {
+  width: 60%;
+}
+
+.title-modal h3 {
+  font-size: 2.125rem;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.box-alert .box-buttons {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.box-alert .box-buttons button{
+  background-color: var(--black-color);
+  padding: 0.75rem;
+  border: none;
+  border-radius: 100px;
+  color: #f8f8f8;
+  width: 100%;
+  font-size: 1.325rem;
+  cursor: pointer;
+}
+
+.modal-information{
+  font-size: 0.725rem;
+  text-align: center;
+  padding: 0 0.325rem;
+  line-height: 1.4;
 }
