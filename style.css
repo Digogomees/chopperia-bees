@@ -68,6 +68,25 @@ html {
 
 .text-help {
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.head-question-title {
+  display: flex;
+  justify-items: end;
+  font-size: 1.125rem;
+}
+
+.head-contact span {
+  font-size: 1.625rem;
+  font-weight: 600;
 }
 
 .banner-home{
@@ -145,13 +164,15 @@ html {
   font-size: 2.25rem;
   font-weight: 700;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .hw-button span {
   text-align: center;
   line-height: 1.5;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.825rem;
+  max-width: 690px;
+  margin: 0 auto;
 }
 
 .beer-cooler {
