@@ -58,11 +58,13 @@ html {
   text-decoration: none;
   color: var(--black-color);
   font-weight: bold;
+  transition: ease all 0.1s;
 }
 
-.head-text a:hover {
+.option-head:hover a {
   color: var(--yellow-color);
   background: var(--black-color);
+  padding: 2.625rem;
 }
 
 
@@ -91,7 +93,7 @@ html {
 
 .banner-home{
   width: 100%;
-  background: url('./assets/background.png') center center no-repeat;
+  background: url('./assets/banner-beer.png') center center no-repeat;
   background-size: cover;
   height: 500px;
 }
@@ -107,7 +109,7 @@ html {
 
 .banner-text h3 {
   font-weight: 800;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
 }
 
