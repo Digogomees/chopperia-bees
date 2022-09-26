@@ -80,7 +80,7 @@ html {
 
 .head-question-title {
   display: flex;
-  justify-items: end;
+  justify-content: end;
   font-size: 1.125rem;
 }
 
