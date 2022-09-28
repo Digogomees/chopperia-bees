@@ -22,10 +22,6 @@
         height: 70px;
     }
 
-    .logo-navbar img:nth-child(2) {
-        display: none;
-      }
-
     .head-contact img {
         width: 15px;
         height: 15px;
