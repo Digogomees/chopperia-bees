@@ -42,9 +42,20 @@ html {
   width: 100%;
 }
 
+.logo-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .logo-navbar img {
   height: 100px;
   width: 100px;
+}
+
+.logo-navbar img:nth-child(2) {
+  height: 40px;
+  width: 40px;
 }
 
 .head-text {
@@ -93,7 +104,7 @@ html {
 
 .banner-home{
   width: 100%;
-  background: url('./assets/banner-beer.png') center center no-repeat;
+  background: url('./assets/backgroun2.png') center center no-repeat;
   background-size: cover;
   height: 500px;
 }

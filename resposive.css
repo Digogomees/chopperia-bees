@@ -35,8 +35,12 @@
         background: var(--yellow-color);
     }
 
-    .head-text{
+    .head-text .option-head{
         display: none;
+    }
+
+    .head-text.form .option-head:first-child {
+        display: block !important;
     }
 
     .banner-text h3 {
@@ -49,7 +53,7 @@
     .hw-specifications {
         flex-direction: column;
     }
-    .hw-button button {
+    .hw-button a {
         font-size: 1.5rem;
     }
     .hw-button span {
