@@ -36,7 +36,8 @@ html {
 }
 
 header {
-  position: sticky;
+  position: absolute;
+  width: 100%;
   top: 0;
   z-index: 999;
   background-color: #fff;
@@ -450,6 +451,12 @@ header {
 
 /* formulário */
 
+
+.form {
+  height: 100vh;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+}
 .iframe {
   width: 100%;
   height: 100vh;
