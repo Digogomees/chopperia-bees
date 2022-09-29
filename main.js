@@ -27,7 +27,6 @@ const buttonAgree = document.getElementById('b-agree')
 const buttonDecline = document.getElementById('b-decline')
 
 if(localStorage.persitCloseModal === 'modal-bg'){
-    console.log('caiu aqui')
     modalShow.classList.add('close-modal');
 }
 
