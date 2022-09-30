@@ -242,7 +242,7 @@ header {
   align-items: center;
   width: 100%;
   margin-top: 3rem;
-  z-index: 999;
+  z-index: 99;
 }
 
 .bc-content ul li {
@@ -476,7 +476,7 @@ header {
 
 .form-office {
   height: 100vh;
-  padding-top: 130px;
+  /* padding-top: 130px; */
   background-color: #f2f2f2;
 }
 .iframe {
