@@ -17,6 +17,9 @@
 /* mobile breakpoint */
 
 @media (min-width: 279.98px) and (max-width: 575.98px) {
+    .banner-home {
+        margin-top: 70px;
+    }
     .logo-navbar img {
         width: 70px;
         height: 70px;
