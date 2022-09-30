@@ -53,6 +53,7 @@ header {
 .logo-navbar {
   display: flex;
   align-items: center;
+  grid-gap: 10px;
   gap: 10px;
 }
 
@@ -64,6 +65,7 @@ header {
 .head-text {
   display: flex;
   align-items: center;
+  grid-gap: 30px;
   gap: 30px;
   margin: 0 auto;
 }
@@ -90,6 +92,7 @@ header {
 
 .head-contact {
   display: flex;
+  grid-gap: 10px;
   gap: 10px;
   align-items: center;
 }
@@ -115,6 +118,7 @@ header {
 }
 
 .img-bees {
+  width: 472px;
   height: 450px;
   position: absolute;
   bottom: 0;
@@ -132,6 +136,7 @@ header {
     display: flex;
     flex-direction: column;
     max-width: 310px;
+    grid-gap: 30px;
     gap: 30px;
 }
 
@@ -154,6 +159,7 @@ header {
 
 .hw-box-content {
   flex-direction: column;
+  grid-gap: 2rem;
   gap: 2rem;
 }
 
@@ -164,6 +170,7 @@ header {
 
 .hw-specifications {
   display: flex;
+  grid-gap: 2rem;
   gap: 2rem;
 }
 
@@ -172,6 +179,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  grid-gap: 10px;
   gap: 10px;
 }
 
@@ -181,6 +189,7 @@ header {
 
 .hw-button{
   display: grid;
+  grid-gap: 1.25rem;
   gap: 1.25rem;
   margin-top: 1.75rem;
 }
@@ -256,6 +265,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: center;
+  grid-gap: 10px;
   gap: 10px;
 }
 
@@ -275,6 +285,7 @@ header {
 .rules-topic {
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
   gap: 20px;
   margin-top: 50px;
 }
@@ -290,6 +301,11 @@ header {
   transition: ease all 0.1ms;
 }
 
+.rules-box strong {
+  font-size: 1.125rem;
+  margin-right: 5px;
+}
+
 .rules-box:hover {
   background-color: #2e2e2e;
   color: var(--yellow-color);
@@ -303,6 +319,7 @@ header {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  grid-gap: 180px;
   gap: 180px;
   max-width: 1120px;
 }
@@ -327,12 +344,14 @@ header {
 .b-descriptions, .list-benefits{
   display: flex;
   flex-direction: column;
+  grid-gap: 40px;
   gap: 40px;
 }
 
 .icon {
   display: flex;
   align-items: center;
+  grid-gap: 40px;
   gap: 40px;
   font-size: 1.25rem;
   border: 1px solid;
@@ -368,6 +387,7 @@ header {
 
 .container.cancel {
   gap: 2rem;
+  grid-gap: 2rem;
   align-items: center;
 }
 
@@ -409,6 +429,7 @@ header {
 
   display: flex;
   flex-direction: column;
+  grid-gap: 20px;
   gap: 20px;
 }
 
@@ -429,6 +450,7 @@ header {
 .box-alert .box-buttons {
   display: flex;
   gap: 20px;
+  grid-gap: 20px;
   margin: 20px 0;
 }
 
@@ -454,7 +476,7 @@ header {
 
 .form-office {
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 130px;
   background-color: #f2f2f2;
 }
 .iframe {

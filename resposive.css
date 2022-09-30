@@ -93,6 +93,10 @@
         flex-direction: column;
     }
 
+    .rules-box strong {
+        display: none;
+      }
+
     .b-contents {
         flex-direction: column;
         gap: 0;
